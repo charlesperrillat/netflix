@@ -1,0 +1,38 @@
+body {
+  background-color: #000;
+  padding-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  width: 100px;
+}
+
+section h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+section img {
+  width: 220px;
+  object-fit: contain;
+}
+
+.movie-section {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 40px;
+  overflow-x: scroll;
+}
+
+.movie-section::-webkit-scrollbar {
+  display: none;
+}
